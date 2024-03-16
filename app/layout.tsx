@@ -1,6 +1,5 @@
 import '@/app/ui/global.css';
-import { fonts } from './ui/fonts';
-
+import { fonts } from '@/app/ui/fonts';
  
 export default function RootLayout({
   children,
