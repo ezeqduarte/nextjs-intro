@@ -1,4 +1,4 @@
-import { fonts } from '@/app/ui/fonts';
+import { fonts } from './fonts';
 import {
   AtSymbolIcon,
   KeyIcon,

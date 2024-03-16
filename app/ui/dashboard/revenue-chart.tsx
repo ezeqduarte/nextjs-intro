@@ -1,6 +1,6 @@
 import { generateYAxis } from '@/app/lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
-import { fonts } from '@/app/ui/fonts';
+import { fonts } from '../fonts';
 import { Revenue } from '@/app/lib/definitions';
 
 // This component is representational only.

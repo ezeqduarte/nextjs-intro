@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { fonts } from '@/app/ui/fonts';
+import { fonts } from '../fonts';
 import Search from '@/app/ui/search';
 import {
   CustomersTableType,

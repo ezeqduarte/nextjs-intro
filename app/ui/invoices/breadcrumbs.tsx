@@ -1,6 +1,6 @@
 import { clsx } from 'clsx';
 import Link from 'next/link';
-import { fonts } from '@/app/ui/fonts';
+import { fonts } from '../fonts';
 
 interface Breadcrumb {
   label: string;
