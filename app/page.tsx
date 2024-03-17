@@ -2,7 +2,6 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import styles from '@/app/ui/home.module.css';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {
@@ -16,7 +15,7 @@ export default function Page() {
           <div className={styles.shape} />
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong
-              className={`${lusitana.className} text-blue-500 antialiased`}
+              className={`text-blue-500 antialiased`}
             >
               Welcome to Acme.
             </strong>{' '}
@@ -36,6 +35,7 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <Image
             src="/hero-desktop.png"
+            priority={false}
             width={1000}
             height={750}
             className="hidden md:block"
@@ -43,6 +43,7 @@ export default function Page() {
           />
            <Image
             src="/hero-mobile.png"
+            priority={false}
             width={560}
             height={620}
             className="md:hidden"
